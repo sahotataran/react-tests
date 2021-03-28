@@ -35,6 +35,7 @@ const CallbackParent = (props) => {
     return (
         <div style={{maxWidth : 1100, margin : '0 auto', padding: '1rem' }}>
             <h4>Callback Demo</h4>
+            <p>Source : <a href="https://github.com/sahotataran/react-tests" target="_blank" >https://github.com/sahotataran/react-tests</a></p>
             <p>This is demo for what happens when you use callback vs when you dont use callback<br/>Open console to see what is going on</p>
             <p>When you click Increment Counter the counter in this component is updated. which forces the re-render of the component.</p>
             <button type="button" onClick={incrementCounter}>Increment Counter</button> <br />
